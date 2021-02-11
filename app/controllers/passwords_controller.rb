@@ -1,4 +1,4 @@
-class PasswordsController < ApplicationController
+class PasswordController < ApplicationController
   # User has to be logged in to access this actions
   before_action :require_user_logged_in!
 
